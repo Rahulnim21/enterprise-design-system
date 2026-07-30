@@ -1,0 +1,30 @@
+/*
+  button.css
+  Contains styles for the Button component, consuming CSS variables.
+*/
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-3) var(--spacing-4);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body-md);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-interactive-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-interactive-primary-hover);
+}
+
+/* Add other button variants like .btn-secondary, .btn-destructive etc. */
