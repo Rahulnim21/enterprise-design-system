@@ -1,0 +1,1 @@
+// Placeholder for a custom publishing script, often used with Changesets for more control.

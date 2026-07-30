@@ -1,1 +1,15 @@
-{}
+{
+  "name": "@enterprise/tokens",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Design tokens for the Enterprise Design System, providing a single source of truth for styles.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "generated"
+  ],
+  "scripts": {
+    "build": "node ../../scripts/generate-tokens.js"
+  }
+}

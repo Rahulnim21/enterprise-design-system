@@ -1,0 +1,9 @@
+{
+  "name": "playground-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A sandbox environment for experimenting with design system components.",
+  "scripts": {
+    "dev": "vite"
+  }
+}

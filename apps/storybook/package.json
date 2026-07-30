@@ -1,0 +1,10 @@
+{
+  "name": "storybook-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Storybook environment for developing and testing UI components.",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@enterprise/icons",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A library of SVG icons, optimized and wrapped as React components.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node ../../scripts/generate-icons.js"
+  }
+}

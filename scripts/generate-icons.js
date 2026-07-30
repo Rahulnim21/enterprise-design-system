@@ -1,0 +1,1 @@
+// Placeholder for a script to process SVG icons into React components (e.g., using SVGR).
